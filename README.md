@@ -13,11 +13,7 @@ To execute the routines contained on the home page the following resources must 
 ## Requirements
 - Python 3.11
 - Streamlit
-<<<<<<< HEAD
-- Libraries in Python: Pandas, yfinance, numpy, matplotlib, plotly and datetime
-=======
 - Libraries in Python: Pandas, yfinance, numpy, matplotlib, plotly, datetime, scikit-learn and xgboost
->>>>>>> a02234b (projetoFinance)
 
 ## How to run and install dependencies
 
@@ -37,11 +33,8 @@ pip install yfinance
 pip install matplotlib
 pip install plotly
 pip install datetime
-<<<<<<< HEAD
-=======
 pip install -U scikit-learn
 pip install xgboost
->>>>>>> a02234b (projetoFinance)
 ```
 
 3) Run/start the aplication in terminal
