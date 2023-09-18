@@ -1,6 +1,4 @@
 import streamlit as st
-<<<<<<< HEAD
-
 import pandas as pd
 
 import numpy as np
@@ -11,8 +9,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 import seaborn as sns
 import matplotlib.pyplot as plt
-=======
-#import pandas as pd
 
 import numpy as np
 import yfinance as yf
@@ -28,14 +24,12 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 from xgboost import XGBRegressor
 
->>>>>>> a02234b (projetoFinance)
 plt.switch_backend('TkAgg')
 
 st.set_page_config(layout='wide', page_title='Prever Preço Ação', page_icon='🧠')
 
-<<<<<<< HEAD
 st.write('Pagina para montar um sistema de predict dos preços de ações 🧠')
-=======
+
 stock_list = ['TSLA','AAPL','VALE3.SA','PETR3.SA','WEGE3.SA','GOOG','ITUB4.SA','ALLD3.SA','CASH3.SA','BRAP4.SA']
 metrica_rmse = 0
 mensagem = "" 
